@@ -1,0 +1,14 @@
+# Core dependencies for fine-tuning and inference
+torch>=2.5.1  # CUDA-compatible version (e.g., torch==2.5.1+cu121)
+transformers>=4.40.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+accelerate>=0.30.0
+datasets>=2.18.0
+trl==0.8.6  # specific version used in notebook
+
+# Optional: for dataset generation (only if you re-run the Q&A generation)
+ollama>=0.1.0
+
+# Utility
+tqdm
